@@ -1,0 +1,76 @@
+html {
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        overflow: x;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'JasmineUPC', 'Cordia New';
+  font-size:larger;
+  color: rgb(139 84 68);
+}
+#header1{
+  font-family: 'Georgia', 'JasmineUPC', 'Cordia New';
+  font-size: 15pt;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  text-align: center;
+}
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255 241 212);
+}
+a:visited{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+    /*------------------------------------------------------------*/
+
+.header {
+    overflow: hidden;
+    padding: 0px 50px;
+    color: whitesmoke;
+    background-color: rgb(139 84 68);
+    padding: 10px 10px;
+    text-align: center;
+  }
+    .header img{
+      height: 5rem;
+    }
+
+    /*------------------------------------------------------------*/
+
+.Container{
+    margin: 0 auto;
+    max-width: 995px;
+    position: relative;
+    background-color: whitesmoke;
+    text-indent: 50px;
+}
+
+    /*------------------------------------------------------------*/
+
+.footer{
+    color: whitesmoke;
+    display:block;
+    background-color: rgb(139 84 68);
+    text-align: center;
+    padding: 10px 10px;
+}
+.footer img{
+  height: 10rem;
+}
+    /*------------------------------------------------------------*/
